@@ -1,257 +1,105 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Classes - GAPy</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="assets/_mkdocstrings.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Classes";
+        var mkdocs_page_input_path = "classes.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
 
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-      
-      
-      
-      
-        <link rel="next" href="tutorial.html">
-      
-      
-      <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
-    
-    
-      
-        <title>Classes - GAPy</title>
-      
-    
-    
-      <link rel="stylesheet" href="assets/stylesheets/main.35f28582.min.css">
-      
-      
+<body class="wy-body-for-nav" role="document">
 
-
-    
-    
-      
-    
-    
-      
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
-    
-    
-      <link rel="stylesheet" href="assets/_mkdocstrings.css">
-    
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-    
-      
-
-    
-    
-    
-  </head>
-  
-  
-    <body dir="ltr">
-  
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#gapy-classes" class="md-skip">
-          Skip to content
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="index.html" class="icon icon-home"> GAPy
         </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-    
-      
+      </div>
 
-  
-
-<header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="GAPy" class="md-header__button md-logo" aria-label="GAPy" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
-
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            GAPy
-          </span>
-        </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
-            
-              Classes
-            
-          </span>
-        </div>
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="index.html">General</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Classes</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#gapy">GAPy</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gapy.GAPy">GAPy</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gapy.GAPy.__init__">__init__</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gapy.GAPy.describe_population">describe_population</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gapy.GAPy.optimize">optimize</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gapy_solution">GAPy_solution</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gapy.GAPy_solution">GAPy_solution</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gapy.GAPy_solution.__init__">__init__</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="tutorial.html">Tutorial</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="resources.html">Resources</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a>
+                </li>
+              </ul>
       </div>
     </div>
-    
-    
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
-    
-    
-    
-    
-  </nav>
-  
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">GAPy</a>
         
-          
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
-            
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-
-
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href="." title="GAPy" class="md-nav__button md-logo" aria-label="GAPy" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
-
-    </a>
-    GAPy
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="classes.html" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Classes
-  </span>
-  
-
-      </a>
-      
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html" class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Classes</li>
+    <li class="wy-breadcrumbs-aside">
     </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="tutorial.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Tutorial
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="resources.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Resources
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
   </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          
-            <div class="md-content" data-md-component="content">
-              <article class="md-content__inner md-typeset">
-                
-                  
-
-
-<h1 id="gapy-classes">GAPy classes</h1>
-<h1 id="gapy">GAPy</h1>
+                <h1 id="gapy-classes">GAPy classes</h1>
+<hr />
+<h2 id="gapy">GAPy</h2>
 
 
 <div class="doc doc-object doc-class">
@@ -539,7 +387,17 @@
 <span class="normal">537</span>
 <span class="normal">538</span>
 <span class="normal">539</span>
-<span class="normal">540</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">class</span> <span class="nc">GAPy</span><span class="p">:</span>
+<span class="normal">540</span>
+<span class="normal">541</span>
+<span class="normal">542</span>
+<span class="normal">543</span>
+<span class="normal">544</span>
+<span class="normal">545</span>
+<span class="normal">546</span>
+<span class="normal">547</span>
+<span class="normal">548</span>
+<span class="normal">549</span>
+<span class="normal">550</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">class</span> <span class="nc">GAPy</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&#39;&#39;&#39;</span>
 
 <span class="sd">    Class for the GA engine.</span>
@@ -697,14 +555,15 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">status_summary</span><span class="p">[</span><span class="s1">&#39;global_best_fitness&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">best_fitness</span><span class="p">)</span>
 
 
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;[</span><span class="si">%d</span><span class="s1">/</span><span class="si">%d</span><span class="s1">] Ave: </span><span class="si">%6.3g</span><span class="s1">  Curr.Best: </span><span class="si">%6.3g</span><span class="s1">  Best: </span><span class="si">%6.3g</span><span class="s1"> [Age: </span><span class="si">%d</span><span class="s1">]&#39;</span><span class="o">%</span><span class="p">(</span><span class="n">generation</span><span class="p">,</span>
-                                                                <span class="n">max_generations</span><span class="p">,</span>
-                                                                <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">current_fitness</span><span class="p">),</span>
-                                                                <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">current_fitness</span><span class="p">),</span>
-                                                                <span class="n">best_fitness</span><span class="p">,</span>
-                                                                <span class="bp">self</span><span class="o">.</span><span class="n">status_summary</span><span class="p">[</span><span class="s1">&#39;best_solution_age&#39;</span><span class="p">]</span>
-                                                                <span class="p">))</span> 
+        <span class="c1"># print(&#39;[%d/%d] Ave: %6.3g  Curr.Best: %6.3g  Best: %6.3g [Age: %d]&#39;%(generation,</span>
+        <span class="c1">#                                                         max_generations,</span>
+        <span class="c1">#                                                         np.mean(current_fitness),</span>
+        <span class="c1">#                                                         np.min(current_fitness),</span>
+        <span class="c1">#                                                         best_fitness,</span>
+        <span class="c1">#                                                         self.status_summary[&#39;best_solution_age&#39;]</span>
+        <span class="c1">#                                                         )) </span>
 
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;[</span><span class="si">{</span><span class="n">generation</span><span class="si">:</span><span class="s2">&gt;6d</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">max_generations</span><span class="si">:</span><span class="s2">&lt;6d</span><span class="si">}</span><span class="s2">] Ave.:</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">status_summary</span><span class="p">[</span><span class="s1">&#39;mean_fitness&#39;</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">:</span><span class="s2">6.3g</span><span class="si">}</span><span class="s2"> Curr.Best:</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">status_summary</span><span class="p">[</span><span class="s1">&#39;current_best_fitness&#39;</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">:</span><span class="s2">6.3g</span><span class="si">}</span><span class="s2"> Best:</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">status_summary</span><span class="p">[</span><span class="s1">&#39;global_best_fitness&#39;</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">:</span><span class="s2">6.3g</span><span class="si">}</span><span class="s2"> [AGE </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">status_summary</span><span class="p">[</span><span class="s1">&#39;best_solution_age&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">]&quot;</span><span class="p">)</span>
 
 
 
@@ -745,6 +604,15 @@
             <span class="c1"># ====================</span>
             <span class="k">for</span> <span class="n">id_offspring</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_crossover</span><span class="p">):</span>
                 <span class="n">parents</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">selection_function</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">population</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+<span class="w">                </span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">                There are basically two types of hard-coded crossover functions (CF):</span>
+<span class="sd">                    1. Simple one: the CF takes only the 2 parents and mixes them</span>
+<span class="sd">                    2. Weighted: the CF takes 4 arguments, namely the 2 parents</span>
+<span class="sd">                        and their fitness values (in this order) and generates</span>
+<span class="sd">                        offspring considering this latter information.</span>
+
+<span class="sd">                This is detected from the CF itself based on its number of arguments.</span>
+<span class="sd">                &#39;&#39;&#39;</span>
                 <span class="k">if</span> <span class="n">nargs_crossover</span><span class="o">==</span><span class="mi">2</span><span class="p">:</span> <span class="c1"># simple corssover function</span>
                     <span class="n">new_candidate</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">crossover_function</span><span class="p">(</span><span class="n">parents</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">coded</span><span class="p">,</span><span class="n">parents</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">coded</span><span class="p">)</span>
                 <span class="k">else</span><span class="p">:</span> <span class="c1"># pass additional info</span>
@@ -838,118 +706,88 @@
 
     <div class="doc doc-contents ">
 
-        <p>Creates and initializes a GAPy object</p>
 
 
-<p><span class="doc-section-title">Parameters:</span></p>
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Type</th>
-          <th>Description</th>
-          <th>Default</th>
-        </tr>
-      </thead>
-      <tbody>
-          <tr class="doc-section-item">
-            <td><code>initial_population</code></td>
-            <td>
-                  <code>list[<span title="typing.Any">Any</span>]</code>
-            </td>
-            <td>
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>initial_population</code></b>
+                  (<code>list[<span title="typing.Any">Any</span>]</code>)
+              –
               <div class="doc-md-description">
                 <p>List of the chromosomes forming the
 initial population. Any type is supported.</p>
               </div>
-            </td>
-            <td>
-                <em>required</em>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td><code>fitness_function</code></td>
-            <td>
-                  <code><span title="typing.Callable">Callable</span>[[<span title="typing.Any">Any</span>], float]</code>
-            </td>
-            <td>
+            </li>
+            <li>
+              <b><code>fitness_function</code></b>
+                  (<code><span title="typing.Callable">Callable</span>[[<span title="typing.Any">Any</span>], float]</code>)
+              –
               <div class="doc-md-description">
                 <p>fitness function. Being
 GAPy designed for minimization, the lower the fitness value
 for a solution, the better it is.</p>
               </div>
-            </td>
-            <td>
-                <em>required</em>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td><code>selection_function</code></td>
-            <td>
-                  <code><span title="typing.Callable">Callable</span>[[list[<a class="autorefs autorefs-internal" title="gapy.GAPy_solution" href="#gapy.GAPy_solution">GAPy_solution</a>], int], list[<a class="autorefs autorefs-internal" title="gapy.GAPy_solution" href="#gapy.GAPy_solution">GAPy_solution</a>]]</code>
-            </td>
-            <td>
+            </li>
+            <li>
+              <b><code>selection_function</code></b>
+                  (<code><span title="typing.Callable">Callable</span>[[list[<a class="autorefs autorefs-internal" title="gapy.GAPy_solution" href="#gapy.GAPy_solution">GAPy_solution</a>], int], list[<a class="autorefs autorefs-internal" title="gapy.GAPy_solution" href="#gapy.GAPy_solution">GAPy_solution</a>]]</code>)
+              –
               <div class="doc-md-description">
                 <p>GA selection function.</p>
               </div>
-            </td>
-            <td>
-                <em>required</em>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td><code>crossover_function</code></td>
-            <td>
-                  <code><span title="typing.Callable">Callable</span>[[<span title="typing.Any">Any</span>, <span title="typing.Any">Any</span>], <span title="typing.Any">Any</span>]</code>
-            </td>
-            <td>
+            </li>
+            <li>
+              <b><code>crossover_function</code></b>
+                  (<code><span title="typing.Callable">Callable</span>[[<span title="typing.Any">Any</span>, <span title="typing.Any">Any</span>], <span title="typing.Any">Any</span>]</code>)
+              –
               <div class="doc-md-description">
                 <p>GA crossover function.</p>
               </div>
-            </td>
-            <td>
-                <em>required</em>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td><code>mutation_function</code></td>
-            <td>
-                  <code><span title="typing.Callable">Callable</span>[[<span title="typing.Any">Any</span>, <span title="typing.Any">Any</span>], <span title="typing.Any">Any</span>]</code>
-            </td>
-            <td>
+            </li>
+            <li>
+              <b><code>mutation_function</code></b>
+                  (<code><span title="typing.Callable">Callable</span>[[<span title="typing.Any">Any</span>, <span title="typing.Any">Any</span>], <span title="typing.Any">Any</span>]</code>)
+              –
               <div class="doc-md-description">
                 <p>GA mutation function.</p>
               </div>
-            </td>
-            <td>
-                <em>required</em>
-            </td>
-          </tr>
-      </tbody>
-    </table>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-
-    <p><span class="doc-section-title">Returns:</span></p>
-    <table>
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-          <tr class="doc-section-item">
-            <td>
-            </td>
-            <td>
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Returns:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              –
               <div class="doc-md-description">
                 <p>None.</p>
               </div>
-            </td>
-          </tr>
-      </tbody>
-    </table>
-
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
             <details class="quote">
               <summary>Source code in <code>gapy.py</code></summary>
               <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">276</span>
@@ -1060,27 +898,27 @@ for a solution, the better it is.</p>
 of each solution and fitness value.</p>
 
 
-    <p><span class="doc-section-title">Returns:</span></p>
-    <table>
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-          <tr class="doc-section-item">
-            <td>
-            </td>
-            <td>
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Returns:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              –
               <div class="doc-md-description">
                 <p>None.</p>
               </div>
-            </td>
-          </tr>
-      </tbody>
-    </table>
-
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
             <details class="quote">
               <summary>Source code in <code>gapy.py</code></summary>
               <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">324</span>
@@ -1132,142 +970,115 @@ of each solution and fitness value.</p>
         <p>Starts the GA-based optimization and returns the obtained solution.</p>
 
 
-<p><span class="doc-section-title">Parameters:</span></p>
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Type</th>
-          <th>Description</th>
-          <th>Default</th>
-        </tr>
-      </thead>
-      <tbody>
-          <tr class="doc-section-item">
-            <td><code>max_generations</code></td>
-            <td>
-                  <code>int</code>
-            </td>
-            <td>
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>max_generations</code></b>
+                  (<code>int</code>, default:
+                      <code>100</code>
+)
+              –
               <div class="doc-md-description">
                 <p>Maximum allowed generations for the GA. Defaults to 100.</p>
               </div>
-            </td>
-            <td>
-                  <code>100</code>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td><code>target_fitness</code></td>
-            <td>
-                  <code>float</code>
-            </td>
-            <td>
+            </li>
+            <li>
+              <b><code>target_fitness</code></b>
+                  (<code>float</code>, default:
+                      <code>0</code>
+)
+              –
               <div class="doc-md-description">
                 <p>Target fitness (minimization): if reached the algorithm stops. Defaults to 0.            </p>
               </div>
-            </td>
-            <td>
-                  <code>0</code>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td><code>max_time</code></td>
-            <td>
-                  <code>float</code>
-            </td>
-            <td>
+            </li>
+            <li>
+              <b><code>max_time</code></b>
+                  (<code>float</code>, default:
+                      <code><span title="numpy.Inf">Inf</span></code>
+)
+              –
               <div class="doc-md-description">
                 <p>Maximum time for optimization, in seconds. Defaults to np.Inf.</p>
               </div>
-            </td>
-            <td>
-                  <code><span title="numpy.Inf">Inf</span></code>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td><code>patience</code></td>
-            <td>
-                  <code>float</code>
-            </td>
-            <td>
+            </li>
+            <li>
+              <b><code>patience</code></b>
+                  (<code>float</code>, default:
+                      <code><span title="numpy.Inf">Inf</span></code>
+)
+              –
               <div class="doc-md-description">
                 <p>Maximum number of generations without improvement: if overcome the algorithm is stopped. Defaults to np.Inf.</p>
               </div>
-            </td>
-            <td>
-                  <code><span title="numpy.Inf">Inf</span></code>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td><code>elite</code></td>
-            <td>
-                  <code>int</code>
-            </td>
-            <td>
+            </li>
+            <li>
+              <b><code>elite</code></b>
+                  (<code>int</code>, default:
+                      <code>0</code>
+)
+              –
               <div class="doc-md-description">
                 <p>Number of elite candidate solutions. Defaults to 0.</p>
               </div>
-            </td>
-            <td>
-                  <code>0</code>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td><code>recombination_rates</code></td>
-            <td>
-                  <code>list[int, int, int]</code>
-            </td>
-            <td>
+            </li>
+            <li>
+              <b><code>recombination_rates</code></b>
+                  (<code>list[int, int, int]</code>, default:
+                      <code>[0.3, 0.7, 0.1]</code>
+)
+              –
               <div class="doc-md-description">
                 <p>Recombination rates: rate of survivors as they are,
 rate of offspring solutions, rate of mutated elements. First 2 must sum up to 1. Last one &lt;=1. Defaults to [0.3, 0.7, 0.1].</p>
               </div>
-            </td>
-            <td>
-                  <code>[0.3, 0.7, 0.1]</code>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td><code>print_frequency</code></td>
-            <td>
-                  <code>int</code>
-            </td>
-            <td>
+            </li>
+            <li>
+              <b><code>print_frequency</code></b>
+                  (<code>int</code>, default:
+                      <code>1</code>
+)
+              –
               <div class="doc-md-description">
                 <p>Frequency of search status reporting in generations . Defaults to 1.</p>
               </div>
-            </td>
-            <td>
-                  <code>1</code>
-            </td>
-          </tr>
-      </tbody>
-    </table>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-
-    <p><span class="doc-section-title">Returns:</span></p>
-    <table>
-      <thead>
-        <tr>
-<th>Name</th>          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-          <tr class="doc-section-item">
-<td><code>GAPy_solution</code></td>            <td>
-                  <code><a class="autorefs autorefs-internal" title="gapy.GAPy_solution" href="#gapy.GAPy_solution">GAPy_solution</a></code>
-            </td>
-            <td>
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Returns:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+<b><code>GAPy_solution</code></b>(                  <code><a class="autorefs autorefs-internal" title="gapy.GAPy_solution" href="#gapy.GAPy_solution">GAPy_solution</a></code>
+)              –
               <div class="doc-md-description">
                 <p>achieved solution at the termination of the optimization.</p>
               </div>
-            </td>
-          </tr>
-      </tbody>
-    </table>
-
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
             <details class="quote">
               <summary>Source code in <code>gapy.py</code></summary>
               <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">372</span>
@@ -1438,7 +1249,17 @@ rate of offspring solutions, rate of mutated elements. First 2 must sum up to 1.
 <span class="normal">537</span>
 <span class="normal">538</span>
 <span class="normal">539</span>
-<span class="normal">540</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">optimize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">max_generations</span><span class="p">:</span><span class="nb">int</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>
+<span class="normal">540</span>
+<span class="normal">541</span>
+<span class="normal">542</span>
+<span class="normal">543</span>
+<span class="normal">544</span>
+<span class="normal">545</span>
+<span class="normal">546</span>
+<span class="normal">547</span>
+<span class="normal">548</span>
+<span class="normal">549</span>
+<span class="normal">550</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">optimize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">max_generations</span><span class="p">:</span><span class="nb">int</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>
              <span class="n">target_fitness</span><span class="p">:</span><span class="nb">float</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
              <span class="n">max_time</span><span class="p">:</span><span class="nb">float</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">Inf</span><span class="p">,</span>
              <span class="n">patience</span><span class="p">:</span><span class="nb">float</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">Inf</span><span class="p">,</span>
@@ -1492,14 +1313,15 @@ rate of offspring solutions, rate of mutated elements. First 2 must sum up to 1.
     <span class="bp">self</span><span class="o">.</span><span class="n">status_summary</span><span class="p">[</span><span class="s1">&#39;global_best_fitness&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">best_fitness</span><span class="p">)</span>
 
 
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;[</span><span class="si">%d</span><span class="s1">/</span><span class="si">%d</span><span class="s1">] Ave: </span><span class="si">%6.3g</span><span class="s1">  Curr.Best: </span><span class="si">%6.3g</span><span class="s1">  Best: </span><span class="si">%6.3g</span><span class="s1"> [Age: </span><span class="si">%d</span><span class="s1">]&#39;</span><span class="o">%</span><span class="p">(</span><span class="n">generation</span><span class="p">,</span>
-                                                            <span class="n">max_generations</span><span class="p">,</span>
-                                                            <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">current_fitness</span><span class="p">),</span>
-                                                            <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">current_fitness</span><span class="p">),</span>
-                                                            <span class="n">best_fitness</span><span class="p">,</span>
-                                                            <span class="bp">self</span><span class="o">.</span><span class="n">status_summary</span><span class="p">[</span><span class="s1">&#39;best_solution_age&#39;</span><span class="p">]</span>
-                                                            <span class="p">))</span> 
+    <span class="c1"># print(&#39;[%d/%d] Ave: %6.3g  Curr.Best: %6.3g  Best: %6.3g [Age: %d]&#39;%(generation,</span>
+    <span class="c1">#                                                         max_generations,</span>
+    <span class="c1">#                                                         np.mean(current_fitness),</span>
+    <span class="c1">#                                                         np.min(current_fitness),</span>
+    <span class="c1">#                                                         best_fitness,</span>
+    <span class="c1">#                                                         self.status_summary[&#39;best_solution_age&#39;]</span>
+    <span class="c1">#                                                         )) </span>
 
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;[</span><span class="si">{</span><span class="n">generation</span><span class="si">:</span><span class="s2">&gt;6d</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">max_generations</span><span class="si">:</span><span class="s2">&lt;6d</span><span class="si">}</span><span class="s2">] Ave.:</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">status_summary</span><span class="p">[</span><span class="s1">&#39;mean_fitness&#39;</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">:</span><span class="s2">6.3g</span><span class="si">}</span><span class="s2"> Curr.Best:</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">status_summary</span><span class="p">[</span><span class="s1">&#39;current_best_fitness&#39;</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">:</span><span class="s2">6.3g</span><span class="si">}</span><span class="s2"> Best:</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">status_summary</span><span class="p">[</span><span class="s1">&#39;global_best_fitness&#39;</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">:</span><span class="s2">6.3g</span><span class="si">}</span><span class="s2"> [AGE </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">status_summary</span><span class="p">[</span><span class="s1">&#39;best_solution_age&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">]&quot;</span><span class="p">)</span>
 
 
 
@@ -1540,6 +1362,15 @@ rate of offspring solutions, rate of mutated elements. First 2 must sum up to 1.
         <span class="c1"># ====================</span>
         <span class="k">for</span> <span class="n">id_offspring</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_crossover</span><span class="p">):</span>
             <span class="n">parents</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">selection_function</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">population</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+<span class="w">            </span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">            There are basically two types of hard-coded crossover functions (CF):</span>
+<span class="sd">                1. Simple one: the CF takes only the 2 parents and mixes them</span>
+<span class="sd">                2. Weighted: the CF takes 4 arguments, namely the 2 parents</span>
+<span class="sd">                    and their fitness values (in this order) and generates</span>
+<span class="sd">                    offspring considering this latter information.</span>
+
+<span class="sd">            This is detected from the CF itself based on its number of arguments.</span>
+<span class="sd">            &#39;&#39;&#39;</span>
             <span class="k">if</span> <span class="n">nargs_crossover</span><span class="o">==</span><span class="mi">2</span><span class="p">:</span> <span class="c1"># simple corssover function</span>
                 <span class="n">new_candidate</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">crossover_function</span><span class="p">(</span><span class="n">parents</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">coded</span><span class="p">,</span><span class="n">parents</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">coded</span><span class="p">)</span>
             <span class="k">else</span><span class="p">:</span> <span class="c1"># pass additional info</span>
@@ -1619,7 +1450,8 @@ rate of offspring solutions, rate of mutated elements. First 2 must sum up to 1.
 
     </div>
 
-</div><h1 id="gapy_solution">GAPy_solution</h1>
+</div><hr />
+<h2 id="gapy_solution">GAPy_solution</h2>
 
 
 <div class="doc doc-object doc-class">
@@ -1731,73 +1563,63 @@ rate of offspring solutions, rate of mutated elements. First 2 must sum up to 1.
 
     <div class="doc doc-contents ">
 
-        <p>GAPy_solution constructor</p>
 
 
-<p><span class="doc-section-title">Parameters:</span></p>
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Type</th>
-          <th>Description</th>
-          <th>Default</th>
-        </tr>
-      </thead>
-      <tbody>
-          <tr class="doc-section-item">
-            <td><code>raw_solution</code></td>
-            <td>
-                  <code><span title="typing.Any">Any</span></code>
-            </td>
-            <td>
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>raw_solution</code></b>
+                  (<code><span title="typing.Any">Any</span></code>)
+              –
               <div class="doc-md-description">
                 <p>arbitrary raw-coding of a solution to the</p>
               </div>
-            </td>
-            <td>
-                <em>required</em>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td><code>initial_fitness</code></td>
-            <td>
-                  <code>float</code>
-            </td>
-            <td>
+            </li>
+            <li>
+              <b><code>initial_fitness</code></b>
+                  (<code>float</code>, default:
+                      <code>None</code>
+)
+              –
               <div class="doc-md-description">
                 <p>Fitness assigned to the</p>
               </div>
-            </td>
-            <td>
-                  <code>None</code>
-            </td>
-          </tr>
-      </tbody>
-    </table>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-
-    <p><span class="doc-section-title">Returns:</span></p>
-    <table>
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-          <tr class="doc-section-item">
-            <td>
-            </td>
-            <td>
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Returns:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              –
               <div class="doc-md-description">
                 <p>None.</p>
               </div>
-            </td>
-          </tr>
-      </tbody>
-    </table>
-
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
             <details class="quote">
               <summary>Source code in <code>gapy.py</code></summary>
               <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">40</span>
@@ -1846,57 +1668,50 @@ rate of offspring solutions, rate of mutated elements. First 2 must sum up to 1.
     </div>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-                
-              </article>
+              
             </div>
-          
-          
-<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
-        </div>
-        
-      </main>
-      
-        <footer class="md-footer">
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
-  
-</div>
-      
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="index.html" class="btn btn-neutral float-left" title="General"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="tutorial.html" class="btn btn-neutral float-right" title="Tutorial">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
   </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-      
-    </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+      <span><a href="index.html" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <script src="assets/javascripts/bundle.56dfad97.min.js"></script>
-      
+      <span><a href="tutorial.html" style="color: #fcfcfc">Next &raquo;</a></span>
     
-  </body>
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
 </html>
